@@ -192,7 +192,7 @@ public class CreateThumbnailModule extends ReactContextBaseJavaModule {
         
         try {
             retriever.release(); 
-        } catch (UnsupportedEncodingException e) {
+        } catch (IOException e) {
             ex.printStackTrace(); 
         }
         
